@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="primary">
+        <ion-icon slot="icon-only" name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+
+      <ion-buttons>
+        <ion-button color="secondary" routerLink="">
+          <ion-icon name="checkmark-circle-outline"></ion-icon> 
+        </ion-button>
+      </ion-buttons>
+      <ion-buttons>
+        <ion-button color="secondary" routerLink="">
+          <ion-icon name="close-circle-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-buttons>
+
+    <ion-title>
+      Olá Mundo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-button routerLink="/proxima"> 
+      <ion-icon slot="icon-only" name="arrow-redo-outline"></ion-icon>
+      Ir para a próxima página
+    </ion-button> 
+    <ion-button routerLink="/novo"> 
+      <ion-icon slot="icon-only" name="arrow-redo-outline"></ion-icon>
+      Novo
+    </ion-button>
+  </div>
+</ion-content>
